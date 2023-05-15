@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav .yasil_reng {
+  background-color: #007878;
+}
+nav .yasil_reng .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1128px;
+  width: 85vw;
+  height: 48px;
+  margin: 0 auto;
+}
+nav .yasil_reng .container .nomre_icon {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: center;
+}
+nav .yasil_reng .container .nomre_icon i {
+  color: white;
+}
+nav .yasil_reng .container .nomre_icon a {
+  color: white;
+}
+nav .yasil_reng .container .linkler ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+nav .yasil_reng .container .linkler ul a {
+  color: white;
+}
+nav .ag_reng {
+  background-color: white;
+}
+nav .ag_reng .container_bir {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 80px;
+  max-width: 1128px;
+  width: 85vw;
+}
+nav .ag_reng .container_bir div H1 {
+  font-size: 24px;
+}
+nav .ag_reng .container_bir .umumi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+nav .ag_reng .container_bir .umumi .person div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+nav .ag_reng .container_bir .umumi .acar div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+nav .ag_reng .container_bir .umumi .heart div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+nav .ag_reng .container_bir .icon_axtaris {
+  position: relative;
+  right: 40px;
+}
+nav .ag_reng .container_bir .icon_axtaris .axtaris input {
+  width: 504px;
+  border-radius: 8px;
+  height: 24px;
+}
+nav .ag_reng .container_bir .icon_axtaris .icon {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  font-size: 15px;
+}
+nav .container_iki {
+  height: 30px;
+  max-width: 1128px;
+  width: 85vw;
+  margin: 0 auto;
+}
+nav .container_iki .container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .container_iki .container ul li a {
+  color: black;
+}
+
+header .birinci_container {
+  background-color: #FFE2E0;
+}
+header .birinci_container .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  max-width: 1128px;
+  width: 85vw;
+  margin: 0 auto;
+}
+header .birinci_container .container div .shop {
+  width: 192px;
+  height: 52px;
+  border-radius: 8px;
+  background-color: #206363;
+}
+header .birinci_container .container div h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+header .birinci_container .container div .metin {
+  width: 453px;
+  height: 81px;
+  margin-top: 8px;
+  margin-bottom: 48px;
+}
+header .birinci_container .container div .metin p {
+  font-size: 16px;
+  margin-right: 110px;
+  line-height: 27.2px;
+}
+header .birinci_container .container div .faiz {
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+header .birinci_container .container div .faiz b {
+  color: #DF4244;
+  font-size: 24px;
+}
+header .birinci_container .container div .noqteler {
+  margin-top: 50px;
+}
+header .birinci_container .container div .noqteler .bir {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #206363;
+}
+header .birinci_container .container div .noqteler .iki {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #206363;
+}
+header .birinci_container .container div .noqteler .uc {
+  margin-bottom: 47px;
+  width: 26px;
+  height: 12px;
+  border-radius: 8px;
+  background-color: #DF4244;
+}
+header .birinci_container .container .sekil {
+  height: 435px;
+  width: 742px;
+  background-image: url(../../../img/7771326b48a2887aa224f1621090d07b\ 1.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+header .ikinci_container {
+  background-color: #F7F7F7;
+}
+header .ikinci_container .container {
+  height: 144px;
+  max-width: 1128px;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+header .ikinci_container .container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+header .ucuncu_container .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1128px;
+  width: 85%;
+  gap: 10px;
+  margin-top: 80px;
+}
+header .ucuncu_container .container .main {
+  width: 264px;
+  height: 162px;
+  background-color: #F5F5F5;
+  position: relative;
+}
+header .ucuncu_container .container .main .back {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background-repeat: no-repeat;
+  width: 163px;
+  height: 157px;
+  background-image: url(../../../img/kisspng-bag-laptop-backpack-knomo-beauchamp-5b0bf6a37cde46\ 9.svg);
+  background-position: right;
+  background-position: bottom;
+}
+header .ucuncu_container .container .main .relativdir {
+  margin-top: 10px;
+}
+header .ucuncu_container .container .main .shoulder {
+  position: absolute;
+  background-repeat: no-repeat;
+  right: 0px;
+  background-position: bottom;
+  width: 163px;
+  height: 157px;
+  background-image: url(../../../img/kisspng-chanel-gucci-handbag-wallet-sell-my-gucci-bag-www-pixshark-com-images-galler-5b7def98c254a0\ 1.svg);
+  bottom: 0px;
+}
+header .ucuncu_container .container .main .hand {
+  background-image: url(../../../img/kisspng-handbag-satchel-leather-coach-inc-tapestry-5adb94da175541\ 1.svg);
+  bottom: 0px;
+  right: 0px;
+  background-repeat: no-repeat;
+  width: 163px;
+  height: 157px;
+  position: absolute;
+  background-position: right;
+  background-position: bottom;
+}
+header .ucuncu_container .container .main .Evening {
+  width: 163px;
+  height: 157px;
+  position: absolute;
+  background-position: right;
+  background-position: bottom;
+  bottom: 0px;
+  right: 0px;
+  background-repeat: no-repeat;
+  background-image: url(../../../img/5a34e83495d908\ 1.svg);
+}
+header .dorduncu_container .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1128px;
+  width: 85%;
+  margin-top: 83px;
+  margin-bottom: 32px;
+}
+header .dorduncu_container .container .isare {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .besinci_container .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1128px;
+  width: 85%;
+  margin-top: 83px;
+  margin-bottom: 32px;
+}
+header .besinci_container .container .main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 270px;
+  height: 500px;
+}
+header .besinci_container .container .main .sumka {
+  display: flex;
+  justify-content: space-between;
+}
+header .besinci_container .container .main .sumka div button {
+  width: 79px;
+  height: 32px;
+  background-color: #43D167;
+  border-radius: 8px;
+  border: none;
+}
+header .besinci_container .container .main .sumka div i {
+  color: #DF4244;
+}
+header .besinci_container .container .main .sumka .sekil1 {
+  width: 218px;
+  height: 243px;
+  background-image: url(../../../img/kisspng-bag-laptop-backpack-knomo-beauchamp-5b0bf6a37cde46\ 7.svg);
+}
+header .besinci_container .container .main .metin .ulduz {
+  color: #FFDD45;
+}
+header .besinci_container .container .main .metin .yazi {
+  width: 302px;
+  height: 54px;
+  margin-top: 28px;
+}
+header .besinci_container .container .main .metin .reqem {
+  margin-bottom: 18px;
+  display: flex;
+}
+header .besinci_container .container .main .metin .reqem .faiz {
+  width: 73px;
+  height: 34px;
+  color: red;
+}
+header .besinci_container .container .main .metin .reqem .faiz p {
+  font-size: 20px;
+  margin-right: 18px;
+}
+header .besinci_container .container .main .metin .reqem .metin2 {
+  width: 106px;
+  height: 27px;
+}
+header .besinci_container .container .main .metin .knopka {
+  margin-top: 31px;
+  margin-bottom: 28px;
+}
+header .besinci_container .container .main .metin .knopka button {
+  width: 275px;
+  height: 48px;
+  border-radius: 8px;
+}/*# sourceMappingURL=main.css.map */

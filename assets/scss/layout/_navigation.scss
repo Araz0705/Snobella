@@ -1,0 +1,122 @@
+nav{
+    .yasil_reng{
+        background-color: #007878;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1128px;
+        width: 85vw;
+        height: 48px;
+        margin: 0 auto;
+        .nomre_icon{
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            align-items: center;
+            i{
+                color: white;
+            }
+            a {
+                color: white;
+            }
+        }
+        .linkler {
+            ul{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 15px;
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+    }
+    .ag_reng{
+        background-color: white;
+        .container_bir{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            height: 80px;
+            max-width: 1128px;
+            width: 85vw;
+            div{
+                H1{
+                    font-size: 24px;
+                }
+            }
+            .umumi{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 15px;
+                .person{
+                   div{ display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                   }
+                }
+                .acar{
+                    div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                    }
+                }
+                .heart{
+                   div{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                   }
+                }
+            }
+
+                .icon_axtaris{
+                    position: relative;
+                    right: 40px;
+                    .axtaris{
+                        input{
+                            width: 504px;
+                             border-radius: 8px;
+                             height: 24px;
+                            
+
+                        }
+                    }
+                    .icon{
+                        position: absolute;
+                        top: 2px;
+                        right: 2px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        .container_iki{
+            height: 30px;
+            max-width: 1128px;
+            width: 85vw;
+            margin: 0 auto;
+            .container{
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    li{
+                        a{
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
